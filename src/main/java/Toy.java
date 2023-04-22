@@ -15,4 +15,9 @@ public class Toy implements Action {
     public void play(Toy toy) {
         System.out.println("Robot " + name + " is happy to see another toy " + toy);
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
